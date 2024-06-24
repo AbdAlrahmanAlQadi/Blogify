@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqb0D2n4K2x4zB9vuj27J2IM"
+      crossorigin="anonymous"
+    />
+
+    <title>Contact Us</title>
+    <link rel="icon" href="https://fav.farm/💎" />
+
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <div class="navBar">
+        <div class="logo"><a href="index.html">Blogify</a></div>
+        <div class="navlinks">
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="search-field">
+          <input type="search" placeholder="Search " />
+          <button type="submit" class="go-icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="login">
+          <button class="logBtn">Login</button>
+          <button class="SignBtn">Sign Up</button>
+        </div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+    </header>
+    <!-- End NavBar -->
+
+    <!-- Start Welcome Section -->
+    <div class="below-container">
+      <div class="b-title">
+        <p>Contact Us</p>
+      </div>
+      <div class="qoute">
+        <p>If You Have Any Query, Please Contact Us</p>
+      </div>
+      <div class="line">
+        <div class="lineOne"></div>
+        <div class="dote"></div>
+        <div class="lineOne"></div>
+      </div>
+    </div>
+    <!-- Start Welcome Section -->
+
+    <!-- Start Contact Us Form -->
+    <div class="form-box">
+      <form>
+        <input type="text" id="name" name="name" placeholder="Your Name"/>
+        <br />
+        <input type="text" id="email" name="email" placeholder="Your Email"/>
+        <br />
+        <input type="text" id="subject" name="subject" placeholder="Subject"/>
+        <br />
+        <textarea id="message" name="message" placeholder="Message"></textarea>
+        <button onclick="submitBtn()" type="button" id="btnOne">
+          Send Message
+        </button>
+      </form>
+    </div>
+    <!-- End Contact Us Form -->
+
+    <!-- Start Subscribe Section -->
+    <footer>
+      <div class="subscribe">
+        <div class="subscribe-title">
+          <h2>Subscribe To Our Newsletter</h2>
+        </div>
+        <div class="subscribe-text">
+          <hr />
+          <p>
+            Subscribe us here with your email to get updates of all our next
+            blogs, we will inform you in your email.
+          </p>
+          <form action="">
+            <input type="email" placeholder="Enter your email here" />
+            <a href="contact.html">Subscribe</a>
+          </form>
+        </div>
+      </div>
+      <!-- End Subscribe Section -->
+
+      <!-- Social Media Bar -->
+      <div class="social-media">
+        <div class="social-icon">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-f"> <span>Facebook</span></i></a
+          >
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"> <span>Instagram</span></i></a
+          >
+          <a href="https://x.com/home" target="_blank"
+            ><i class="fab fa-twitter"> <span>Twitter</span></i></a
+          >
+          <a href="https://www.youtube.com/" target="_blank"
+            ><i class="fab fa-youtube"> <span>Youtube</span></i></a
+          >
+          <a href="https://www.pinterest.com/" target="_blank"
+            ><i class="fab fa-pinterest-p"> <span>Pinterest</span></i></a
+          >
+          <a href="https://www.linkedin.com/feed/" target="_blank"
+            ><i class="fab fa-linkedin-in"> <span>Linkedin</span></i></a
+          >
+          <a href="https://www.tiktok.com/" target="_blank"
+            ><i class="fab fa-tiktok"> <span>Tiktok</span></i></a
+          >
+        </div>
+      </div>
+      <!-- End Social Media Bar -->
+
+      <!-- Back To Top Button -->
+      <div class="topBtn">
+        <button value="">
+          <span>Back to top</span> <i class="fas fa-chevron-up"></i>
+        </button>
+      </div>
+      <!-- End Back To Top Button -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

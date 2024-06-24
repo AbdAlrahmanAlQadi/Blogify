@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqb0D2n4K2x4zB9vuj27J2IM"
+      crossorigin="anonymous"
+    />
+
+    <title>Blogify</title>
+    <link rel="icon" href="https://fav.farm/💎" />
+    
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <div class="navBar">
+        <div class="logo"><a href="index.html">Blogify</a></div>
+        <div class="navlinks">
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="search-field">
+          <input type="search" placeholder="Search " />
+          <button type="submit" class="go-icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <div class="login">
+          <button class="logBtn">Login</button>
+          <button class="SignBtn">Sign Up</button>
+        </div>
+        <div>
+          <i class="fas fa-bars" id="menu-btn"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End NavBar -->
+
+    <!-- Header -->
+    <div class="header">
+      <div class="artical">
+        <p>Uniqlos Digital Innovation, The Future of Retail and E Commerce</p>
+        <h3>
+          Uniqlo exemplifies digital Innovation's shift towards immersive,
+          personalized shopping.
+        </h3>
+      </div>
+      <div class="image-container">
+        <button><i class="fas fa-arrow-right"></i></button>
+        <span class="text-span1">Technology</span>
+        <span class="text-span2" id="date-span"></span>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Sort Bar -->
+    <div class="sortBar">
+      <div class="filter">
+        <button><i class="fas fa-sliders-h"></i>Filter</button>
+      </div>
+
+      <p>Showing 1 - 12 of 1000+ blog</p>
+
+      <div class="sort-container">
+        <div class="sortBy">
+          <span>Sort By : </span>
+          <select>
+            <option value="Defualt">Defualt</option>
+          </select>
+        </div>
+        <div class="sortBtn">
+          <button class="sortBtn1"><i class="fas fa-th-large"></i></button>
+          <button class="sortBtn2">
+            <i class="fas fa-ellipsis-v"></i><i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- End Sort Bar -->
+
+    <!-- Blogs Section -->
+    <div class="blog-section">
+      <div class="blog-container"></div>
+
+        <!--Side bar-->
+      <div class="side-bar-container">
+          <!-- Categories -->
+          <div class="side-bar">
+            <div class="side-bar-title">
+              <h3>Categories</h3>
+            </div>
+            <div class="side-bar-list">
+              <ul>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Technology</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Design</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Business</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Nature</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> News</a></li>
+                <li><a href="#"><i class="fas fa-chevron-right"></i> Health</a></li>
+                <li class="food"><a href="#"><i class="fas fa-chevron-right"></i> Food</a></li>
+            </div>
+          </div>
+
+          <!-- Populer Post -->
+          <div class="populer-side-bar">
+            <h2>Populer Post</h2>
+            <div class="populer-post">
+                  <img class="populer-img" src="assets/images/populer1.jpg" alt="" >
+                <div class="populer-text">
+                  <button>Life Tips</button>
+                  <span>Mar 24, 2018</span>
+                  <p>Laziness Does Not Exist In Life</p>
+                </div>
+            </div>
+            <div class="populer-post">
+                  <img class="populer-img" src="assets/images/populer2.jpg" alt="" >
+                <div class="populer-text">
+                  <button>Technology</button>
+                  <span>Apr 24, 2024</span>
+                  <p>The Figma plugins I actually use</p>
+                </div>
+            </div>
+            <div class="populer-post">
+                  <img class="populer-img" src="assets/images/populer3.jpg" alt="" >
+                <div class="populer-text">
+                  <button>Life Tips</button>
+                  <span>Apr 15, 2024</span>
+                  <p>Every Photographer Needs Photoshop</p>
+                </div>
+            </div>
+            <div class="populer-post">
+                  <img class="populer-img" src="assets/images/populer4.jpg" alt="" >
+                <div class="populer-text">
+                  <button>Technology</button>
+                  <span>Apr 5, 2024</span>
+                  <p>I Start My Youtube Channel!</p>
+                </div>
+            </div>
+          </div>
+          
+          <!-- Tags Bar -->
+          <div class="tag-bar">
+            <div class="side-bar-title">
+              <h3>Tags</h3>
+            </div>
+            <div class="side-bar-tags">
+              <a href="">Health</a>
+              <a href="">Beauty</a>
+              <a href="">Nature</a>
+              <a href="">Technology</a>
+              <a href="">Adventure</a>
+              <a href="">News</a>
+              <a href="">Nature</a>
+              <a href="">Health</a>
+              <a href="">Food</a>
+              <a href="">Business</a>
+              <a href="">Health</a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Blogs Section -->
+
+    <!-- Explore More Button -->
+    <div class="exploreBtn">
+      <button id="exploreButton" value="">
+        <a href="blogs.html">Explore More <i class="fas fa-chevron-right"></i></a>
+      </button>
+    </div>
+    <!-- End Explore More Button -->
+
+    <!-- Start Subscribe Section -->
+      <div class="subscribe">
+        <div class="subscribe-title">
+          <h2>Subscribe To Our Newsletter</h2>
+        </div>
+        <div class="subscribe-text">
+          <hr>
+          <p>
+            Subscribe us here with your email to get updates of all our next blogs, 
+            we will inform you in your email.
+          </p>
+          <form action="">
+            <input type="email" placeholder="Enter your email here">
+            <a href="contact.html">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    <!-- End Subscribe Section -->
+
+    <!-- Social Media Bar -->
+    <div class="social-media">
+      <div class="social-icon">
+        <a href="https://www.facebook.com/" target="_blank"
+          ><i class="fab fa-facebook-f"> <span>Facebook</span></i></a
+        >
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram"> <span>Instagram</span></i></a
+        >
+        <a href="https://x.com/home" target="_blank"
+          ><i class="fab fa-twitter"> <span>Twitter</span></i></a
+        >
+        <a href="https://www.youtube.com/" target="_blank"
+          ><i class="fab fa-youtube"> <span>Youtube</span></i></a
+        >
+        <a href="https://www.pinterest.com/" target="_blank"
+          ><i class="fab fa-pinterest-p"> <span>Pinterest</span></i></a
+        >
+        <a href="https://www.linkedin.com/feed/" target="_blank"
+          ><i class="fab fa-linkedin-in"> <span>Linkedin</span></i></a
+        >
+        <a href="https://www.tiktok.com/" target="_blank"
+          ><i class="fab fa-tiktok"> <span>Tiktok</span></i></a
+        >
+      </div>
+    </div>
+    <!-- End Social Media Bar -->
+
+    <!-- Back To Top Button -->
+    <div class="topBtn">
+      <button value="">
+        <span>Back to top</span> <i class="fas fa-chevron-up"></i>
+      </button>
+    </div>
+    <!-- End Back To Top Button -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
